@@ -1,6 +1,6 @@
 from oauth2_client.credentials_manager import ServiceInformation, CredentialManager
 from collections import defaultdict
-import enum
+
 import json
 
 CLIENT_ID = "secret"
@@ -72,7 +72,7 @@ def get_advisories(cisco_os):
     return advisories
 
 
-def run(devices_info: list) -> defaultdict:
+def run(devices_info: list):
     """
     run the scanner
     :param device_info: {'ip':ip,'version':version, 'os':os}

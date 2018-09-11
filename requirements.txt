@@ -1,0 +1,4 @@
+netmiko==2.2.2
+oauth2-client==0.0.22
+absl-py==0.4.1
+termcolor==1.1.0
