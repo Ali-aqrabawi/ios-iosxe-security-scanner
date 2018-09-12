@@ -1,5 +1,5 @@
 # ios-iosxe-security-scanner
-vulnerabilities scanner for cisco ios and iosxe
+Python vulnerabilities scanner for cisco ios and iosxe
 
 to use the script, download `vuln_scanner` command, NOTE: this command compatibile with linux OS only.
 for other OS you can run the python script `vuln_scanner.py` (.e.a`python3 vuln_scanner.py [OPTIONS]`)
